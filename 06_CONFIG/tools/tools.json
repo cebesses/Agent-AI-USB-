@@ -1,0 +1,35 @@
+{
+  "filesystem": {
+    "enabled": true,
+    "sandbox_path": "04_WORKSPACE"
+  },
+  "terminal": {
+    "enabled": true,
+    "timeout_s": 60,
+    "max_output_bytes": 5000
+  },
+  "python": {
+    "enabled": true,
+    "timeout_s": 120
+  },
+  "node": {
+    "enabled": true,
+    "timeout_s": 60
+  },
+  "git": {
+    "enabled": true,
+    "timeout_s": 60
+  },
+  "vision": {
+    "enabled": true,
+    "max_image_size_mb": 10
+  },
+  "web_search": {
+    "enabled": false,
+    "requires_network": true
+  },
+  "download": {
+    "enabled": false,
+    "requires_network": true
+  }
+}

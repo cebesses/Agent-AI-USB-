@@ -1,0 +1,61 @@
+{
+  "_comment": "Agent IA USB auto-discovers every GGUF in 01_MODEL (see core/models.py). 'aliases' map friendly names to model ids; 'overrides' tweak a discovered model (e.g. min RAM to auto-pick it, or its context). 'tiers' below is only used by SETUP-USB.bat to know what to download and as a fallback.",
+  "aliases": {
+    "smart": "qwen3.5-9b",
+    "qwen": "qwen3.5-9b",
+    "huihui": "huihui-qwen3.5-9bq5",
+    "gemma": "gemma-4-12b-it"
+  },
+  "overrides": {
+    "gemma-4-12b-it": {
+      "min_ram_gb": 32,
+      "sampling": {
+        "temperature": 1,
+        "top_p": 0.95,
+        "top_k": 64,
+        "min_p": 0,
+        "presence_penalty": 0
+      }
+    }
+  },
+  "tiers": {
+    "qwen3.5-9b": {
+      "label": "Qwen3.5-9B",
+      "min_ram_gb": 14,
+      "model_file": "Qwen3.5-9B-Q4_K_M.gguf",
+      "mmproj_file": "vision/mmproj-Qwen3.5-9B-F16.gguf",
+      "hf_repo": "unsloth/Qwen3.5-9B-GGUF",
+      "hf_model": "Qwen3.5-9B-Q4_K_M.gguf",
+      "hf_mmproj": "mmproj-F16.gguf",
+      "size_bytes": 5680522464,
+      "mmproj_size_bytes": 918166080,
+      "context": 32768
+    },
+    "gemma": {
+      "label": "Gemma-4-12B",
+      "min_ram_gb": 32,
+      "model_file": "gemma-4-12b-it-Q4_K_M.gguf",
+      "mmproj_file": "vision/mmproj-gemma-4-12b-it-F16.gguf",
+      "hf_repo": "unsloth/gemma-4-12b-it-GGUF",
+      "hf_model": "gemma-4-12b-it-Q4_K_M.gguf",
+      "hf_mmproj": "mmproj-F16.gguf",
+      "size_bytes": 7121861440,
+      "mmproj_size_bytes": 175115840,
+      "context": 32768
+    }
+  },
+  "sampling": {
+    "_comment": "Qwen3.5 non-thinking settings. presence_penalty stays 0 because tool calls must repeat file paths exactly.",
+    "temperature": 0.6,
+    "top_p": 0.8,
+    "top_k": 20,
+    "min_p": 0,
+    "presence_penalty": 0
+  },
+  "server": {
+    "host": "127.0.0.1",
+    "port": 8080,
+    "cache_type": "q8_0",
+    "load_vision": true
+  }
+}

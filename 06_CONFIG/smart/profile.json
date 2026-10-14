@@ -1,0 +1,13 @@
+{
+  "name": "smart",
+  "description": "Larger context for complex tasks",
+  "context_size": 8192,
+  "batch_size": 1024,
+  "gpu_layers": 33,
+  "flash_attention": "auto",
+  "kv_cache_type": "f16",
+  "mmap": true,
+  "mlock": false,
+  "threads": 8,
+  "reasoning": "off"
+}

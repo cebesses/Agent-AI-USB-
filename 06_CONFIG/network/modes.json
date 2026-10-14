@@ -1,0 +1,24 @@
+{
+  "OFFLINE": {
+    "internet": false,
+    "web_search": false,
+    "downloads": false
+  },
+  "LOCALHOST_ONLY": {
+    "internet": false,
+    "web_search": false,
+    "downloads": false,
+    "localhost": true
+  },
+  "APPROVED_DOMAINS": {
+    "internet": true,
+    "web_search": true,
+    "downloads": true,
+    "allowed_domains": []
+  },
+  "FULL_INTERNET": {
+    "internet": true,
+    "web_search": true,
+    "downloads": true
+  }
+}

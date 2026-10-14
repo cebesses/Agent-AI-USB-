@@ -1,0 +1,67 @@
+# Runtime files (large, not needed in repo)
+01_MODEL/
+02_RUNTIME/
+
+# Release zips (build with MAKE-RELEASE.bat, upload to GitHub releases)
+agent-ia-usb-v*.zip
+agent_ia_usb_tts_test.wav
+
+# Working directory
+04_WORKSPACE/
+
+# Knowledge indexes
+05_KNOWLEDGE/indexes/
+05_KNOWLEDGE/embeddings/
+
+# Backups
+07_BACKUPS/
+
+# Vault secrets
+11_VAULT/.vault_key
+11_VAULT/.vault_salt
+11_VAULT/vault.enc
+
+# Sessions
+03_AGENT/sessions/
+
+# Undo journal (runtime data)
+03_AGENT/journal/
+
+# Learned skills (generated from real usage)
+03_AGENT/skills/skill_*.json
+
+# Cache
+03_AGENT/cache/
+06_CONFIG/models_cache.json
+06_CONFIG/autotune_results.json
+06_CONFIG/runtime_state.json
+
+# Config runtime
+06_CONFIG/hardware/
+06_CONFIG/active_profile.txt
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.DS_Store
+Thumbs.db
+*.log
+llama-cuda.zip
+
+# Session/editor metadata
+.zcode/
+
+# Test artifacts
+03_AGENT/checkpoints/cp_*
+# 03_AGENT/scheduler/tasks.json  # keep this
+# 03_AGENT/memory/episodic.json  # keep this
+03_AGENT/skills/test_skill.json
+05_KNOWLEDGE/documents/test*.txt
+
+# Generated / private data (recreate with 08_TRAINING\make_dataset.py; grows with use)
+08_TRAINING/data/train.jsonl
+08_TRAINING/data/val.jsonl
+08_TRAINING/data/tools.json
+08_TRAINING/data/trajectories.jsonl
+08_TRAINING/eval_results.jsonl
