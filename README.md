@@ -155,8 +155,6 @@ the microphone is just another input.
 07_BACKUPS/      undo journal, quarantine, backups
 08_TRAINING/     fine-tuning pipeline (Colab/Kaggle)
 09_PLUGINS/      plugin system (voice: whisper.cpp + Piper, implemented)
-docs/            publishing guide + demo assets
-evaluation/      benchmark suite (~1000 conversations)
 ```
 
 ## Extending Agent IA USB
@@ -188,7 +186,6 @@ evaluation/      benchmark suite (~1000 conversations)
 ```
 python 03_AGENT/eval_suite.py         # internal tests, no model needed (161)
 python 03_AGENT/eval_agent.py         # 16 real tasks, verified on disk
-python evaluation/benchmark.py run    # ~1000-conversation benchmark (sample by default)
 ```
 
 ## Contributing
