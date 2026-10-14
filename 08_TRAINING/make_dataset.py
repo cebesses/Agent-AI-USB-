@@ -4,7 +4,7 @@ Agent IA USB fine-tuning dataset builder (Phase 2).
 
 Generates realistic tool-using conversations in the exact format Agent IA USB uses at
 run time: same system prompt, same 23 tool schemas, tool results formatted
-like the real tools print them, Spanish JARVIS-style replies to requests
+like the real tools print them, Spanish Agent IA USB replies to requests
 written in Spanish or English. Real successful conversations from
 data/trajectories.jsonl (eval runs and daily use) are mixed in.
 
@@ -37,7 +37,7 @@ R = random.Random()
 # ------------------------------------------------------------------ fake PCs
 USERS = ["ana", "carlos", "maria", "jose", "lucia", "pedro", "sofia", "diego", "valen", "andres", "camila",
          "juan", "laura", "felipe", "dani", "h", "admin", "user", "mateo", "isabel"]
-NAMES = ["Agent IA USB"] * 8 + ["JARVIS", "FRIDAY", "EDITH"]
+NAMES = ["Agent IA USB"]
 
 
 class FakePC:
