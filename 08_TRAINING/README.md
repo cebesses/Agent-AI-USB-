@@ -4,7 +4,7 @@ Esta carpeta sirve para **entrenar el modelo de Agent IA USB con conversaciones 
 
 - usar sus 33 herramientas correctamente;
 - responder siempre en español;
-- el estilo JARVIS.
+- el estilo propio de Agent IA USB.
 
 Tu PC no tiene GPU, así que el entrenamiento se hace **gratis en la nube**, con Google Colab o Kaggle, desde tu propia cuenta.
 

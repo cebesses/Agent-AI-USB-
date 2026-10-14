@@ -62,7 +62,7 @@ La secuencia que funciona para herramientas de IA locales
 1. **r/LocalLLaMA** (839k miembros) — post tipo "Show": título honesto y
    números reales. Plantilla:
 
-   > **Agent IA USB: a JARVIS-style agent that runs 100% offline from a USB stick
+   > **Agent IA USB: an AI agent that runs 100% offline from a USB stick
    > (llama.cpp + whisper.cpp + Piper, 36 tools, pure-stdlib Python)**
    >
    > - CPU-only, no GPU needed. 9B Q4 model, ~6 GB RAM.
