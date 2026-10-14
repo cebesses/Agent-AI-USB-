@@ -132,7 +132,6 @@ Run the suite before submitting:
 ```bash
 python 03_AGENT/eval_suite.py         # internal tests, no model needed (161)
 python 03_AGENT/eval_agent.py         # 16 real tasks, verified on disk
-python evaluation/benchmark.py run    # ~1000-conversation benchmark (sample by default)
 ```
 
 ## Style
