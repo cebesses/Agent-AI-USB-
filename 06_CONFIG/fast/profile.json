@@ -1,0 +1,13 @@
+{
+  "name": "fast",
+  "description": "Maximum speed, minimal context",
+  "context_size": 2048,
+  "batch_size": 512,
+  "gpu_layers": 33,
+  "flash_attention": "auto",
+  "kv_cache_type": "f16",
+  "mmap": true,
+  "mlock": false,
+  "threads": 8,
+  "reasoning": "off"
+}

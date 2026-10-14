@@ -1,0 +1,22 @@
+{
+  "assistant_name": "Agent IA",
+  "user_title": "",
+  "language": "es",
+  "model": "auto",
+  "runtime": "auto",
+  "stream": true,
+  "max_steps": 30,
+  "max_reply_tokens": 6144,
+  "reasoning": "auto",
+  "web_mode": "OFFLINE",
+  "vision_enabled": true,
+  "learn_skills": true,
+  "log_trajectories": true,
+  "voice": {
+    "mode": "push",
+    "tts_voice": null,
+    "stt_model": "base",
+    "stt_language": "es",
+    "mic_device": null
+  }
+}

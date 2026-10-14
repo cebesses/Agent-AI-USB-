@@ -1,0 +1,17 @@
+{
+  "default_mode": "AUTO",
+  "confirm_destructive": true,
+  "confirm_network": true,
+  "confirm_system_level": true,
+  "workspace_only": false,
+  "dangerous_requires_confirmation": true,
+  "forbidden_tools": [],
+  "max_command_timeout_s": 300,
+  "max_file_size_bytes": 50000000,
+  "allowed_network_modes": [
+    "OFFLINE",
+    "LOCALHOST_ONLY",
+    "APPROVED_DOMAINS",
+    "FULL_INTERNET"
+  ]
+}

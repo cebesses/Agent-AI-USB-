@@ -1,0 +1,17 @@
+{
+  "name": "voice",
+  "version": "1.0.0",
+  "description": "Voice in/out, 100% offline: whisper.cpp STT + Piper TTS + sounddevice mic",
+  "author": "Agent IA USB",
+  "status": "implemented",
+  "capabilities": [
+    "speech-to-text",
+    "text-to-speech"
+  ],
+  "requirements": [
+    "whisper.cpp (02_RUNTIME/whisper)",
+    "piper (02_RUNTIME/piper)",
+    "sounddevice (pip)"
+  ],
+  "setup": "SETUP-USB.bat (choose the voice module)"
+}

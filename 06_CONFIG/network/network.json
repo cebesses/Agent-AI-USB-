@@ -1,0 +1,5 @@
+{
+  "mode": "OFFLINE",
+  "approved_domains": [],
+  "description": "Default: no internet access. Change to FULL_INTERNET for web search."
+}

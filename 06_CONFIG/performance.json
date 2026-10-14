@@ -1,0 +1,18 @@
+{
+  "benchmark_date": "2026-08-23",
+  "model_file": "MiniCPM-V-4.6-Q4_K_M.gguf",
+  "mmproj_file": "mmproj-model-f16.gguf",
+  "host": "127.0.0.1",
+  "port": 8080,
+  "results": {
+    "balanced": {
+      "context_size": 4096,
+      "batch_size": 512,
+      "gpu_layers": 33,
+      "prompt_tok_s": 210,
+      "gen_tok_s": 38,
+      "first_token_s": 0.5,
+      "model_load_s": 2.0
+    }
+  }
+}

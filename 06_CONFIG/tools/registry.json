@@ -1,0 +1,21 @@
+{
+  "enabled_tools": [
+    "filesystem.read",
+    "filesystem.list",
+    "filesystem.write",
+    "filesystem.edit",
+    "filesystem.delete",
+    "filesystem.search",
+    "filesystem.copy",
+    "filesystem.move",
+    "terminal.powershell",
+    "terminal.cmd",
+    "terminal.python",
+    "terminal.node",
+    "terminal.git",
+    "utility.datetime",
+    "utility.hardware",
+    "utility.agent_ia_usb_status"
+  ],
+  "disabled_tools": []
+}
