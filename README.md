@@ -1,6 +1,6 @@
 # Agent IA USB — Portable AI Agent on a USB stick
 
-A fully offline, J.A.R.V.I.S.-style personal AI agent that runs from a USB stick on any
+A fully offline, AI agent that runs from a USB stick on any
 Windows PC — and actually **acts** on the machine: organize files, write and run code,
 audit security, answer questions about your documents, and more. No internet, no install,
 no GPU required.
